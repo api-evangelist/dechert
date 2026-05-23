@@ -1,0 +1,22 @@
+{
+  "repo": "dechert",
+  "feeds": [
+    {
+      "source": "https://www.dechert.com/knowledge.html",
+      "feed_url": "",
+      "title": "News & Insights (OnPoint, Crypto Bytes, FSR Radar, THE CRED, ReTorts)",
+      "format": "",
+      "saved": 0,
+      "error": "no_feed_discovered (https://www.dechert.com/feed, /rss, /knowledge/feed all 404; subscription is via email preference form only)"
+    },
+    {
+      "source": "https://www.dechert.com/knowledge/podcasts.html",
+      "feed_url": "",
+      "title": "Dechert Podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg)",
+      "saved": 0,
+      "error": "no_feed_discovered"
+    }
+  ],
+  "fetched": "2026-05-23T00:00:00Z",
+  "post_count": 0
+}

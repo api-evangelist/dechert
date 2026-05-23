@@ -1,0 +1,203 @@
+aid: dechert
+name: Dechert
+description: >-
+  Dechert LLP is a global law firm founded in 1875 and headquartered in
+  Philadelphia, Pennsylvania, with "more than 900 lawyers" across 22 offices in
+  the United States, Europe, the Middle East, and Asia (Wikipedia cites roughly
+  1,000 attorneys in 20 offices; the firm itself emphasizes a global footprint
+  spanning the U.S., Europe, Asia, and the Middle East). The firm is known for
+  market-leading practices in financial services and investment management,
+  private equity, private credit, mergers and acquisitions, international
+  arbitration, intellectual property, life sciences, white collar enforcement,
+  and antitrust. Dechert publishes deep thought-leadership through its OnPoint
+  series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple
+  podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates
+  proprietary information platforms including DAMITT (Dechert Antitrust Merger
+  Investigation Timing Tracker), World Compass, World Passport, Dechert Direct,
+  and a Box Portal. Despite these data-driven products, Dechert does not expose
+  any public developer API, SDK, OpenAPI specification, GraphQL endpoint,
+  webhook surface, status page, changelog, or developer portal, and does not
+  publish an RSS feed for OnPoint or any blog series — its only public-facing
+  subscription mechanism is an email preference form.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+kind: company
+tags:
+  - Antitrust
+  - Arbitration
+  - Artificial Intelligence
+  - Asset Management
+  - Banking
+  - CLOs
+  - Competition
+  - Corporate
+  - Crisis Management
+  - Cryptocurrency
+  - Cybersecurity
+  - Data Privacy
+  - Employee Benefits
+  - Enforcement
+  - ESG
+  - Financial Restructuring
+  - Financial Services
+  - Fintech
+  - Global Finance
+  - Government Contracts
+  - Intellectual Property
+  - International Arbitration
+  - Investigations
+  - Investment Management
+  - Law
+  - Law Firm
+  - Legal
+  - Legal Services
+  - Life Sciences
+  - Litigation
+  - Mergers and Acquisitions
+  - National Security
+  - Permanent Capital
+  - Pharmaceuticals
+  - Private Client
+  - Private Credit
+  - Private Equity
+  - Product Liability
+  - Real Estate
+  - Regulatory
+  - Sovereign Wealth Funds
+  - Sustainability
+  - Tax
+  - White Collar
+apis: []
+common:
+  - type: Website
+    url: https://www.dechert.com
+  - type: About
+    url: https://www.dechert.com/about.html
+  - type: Services
+    url: https://www.dechert.com/services.html
+  - type: Offices
+    url: https://www.dechert.com/about/offices.html
+  - type: Insights
+    url: https://www.dechert.com/knowledge.html
+  - type: Subscribe
+    url: https://info.dechert.com/17/4315/forms/preference-form.asp
+  - type: Podcasts
+    url: https://www.dechert.com/knowledge/podcasts.html
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/dechert
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Dechert
+  - type: Contact
+    url: https://www.dechert.com/contact.html
+x-firm-profile:
+  founded: '1875'
+  predecessor-firm: MacVeagh & Bispham (founded by Wayne MacVeagh and George Tucker Bispham)
+  headquarters: Philadelphia, Pennsylvania
+  lawyers: 900+
+  offices: 22
+  structure: Limited Liability Partnership (LLP)
+  positioning: Helping Business Leaders Lead
+x-client-stats:
+  - 700+ private fund and fund management group clients
+  - 10 of the top 10 global asset management firms
+  - 50 CLO managers
+  - 350+ private equity and private investment clients
+  - 4 of the top 5 global pharmaceutical companies
+x-practice-areas:
+  - Antitrust/Competition
+  - Artificial Intelligence and Machine Learning
+  - Corporate
+  - Crisis Management
+  - Cyber, Privacy and AI
+  - Employee Benefits and Executive Compensation
+  - Enforcement and Investigations
+  - Financial Restructuring
+  - Financial Services and Investment Management
+  - Global Finance
+  - Government Contracts
+  - Intellectual Property
+  - International Arbitration
+  - Litigation
+  - Mergers and Acquisitions
+  - National Security
+  - Permanent Capital
+  - Private Client
+  - Private Credit Capital Solutions
+  - Private Equity
+  - Product Liability and Mass Torts
+  - Real Estate
+  - Sovereign Wealth Funds
+  - Sustainability
+  - Tax
+x-regions:
+  - United States
+  - Europe
+  - Middle East
+  - Asia
+x-recent-office-expansions:
+  - Dallas
+  - Paris
+  - Singapore
+x-publications:
+  - name: OnPoint
+    description: Flagship client alert publication spanning all practice areas.
+    url: https://www.dechert.com/knowledge.html
+  - name: Crypto Bytes
+    description: Cryptocurrency, digital assets, and Web3 regulatory developments.
+  - name: FSR Radar
+    description: Financial Services Regulatory tracker.
+  - name: THE CRED
+    description: Private credit and BDC-focused publication series.
+  - name: ReTorts
+    description: Product liability, mass torts, and litigation commentary.
+x-podcasts:
+  - name: Dechert 4 Real
+    description: Commercial Real Estate Finance.
+  - name: Committed Capital
+    description: Global Private Equity Insights.
+  - name: Dechert On Reg
+    description: Global Financial Regulation.
+x-proprietary-platforms:
+  - name: DAMITT
+    full-name: Dechert Antitrust Merger Investigation Timing Tracker
+    description: >-
+      Proprietary quarterly tracker measuring the average duration of
+      significant U.S. and EU merger investigations. Published as a downloadable
+      PDF report each quarter; no public dataset or API surface.
+  - name: World Compass
+    description: >-
+      Internal information platform supporting the Financial Services and
+      Investment Management practice. Client-facing only; no public developer
+      surface.
+  - name: World Passport
+    description: >-
+      Internal information platform supporting cross-border fund distribution
+      and regulatory navigation. Client-facing only; no public developer
+      surface.
+  - name: Dechert Direct
+    description: Client portal / collaboration surface. Not publicly documented.
+  - name: Box Portal
+    description: Dechert's Box.com-backed secure file exchange. Internal/client-only.
+x-developer-surface: none
+x-developer-surface-notes: >-
+  Dechert LLP publishes no public developer API, SDK, CLI, OpenAPI/AsyncAPI
+  specification, JSON Schema, GraphQL endpoint, webhooks, status page,
+  changelog, or developer portal. There is no GitHub organization at
+  github.com/dechert or github.com/dechertllp. The firm's machine-readable
+  surface is effectively zero — even a public RSS feed is absent (https://
+  www.dechert.com/feed.html, /rss.html, and /knowledge/feed.html all 404).
+  Subscribers receive OnPoint and other publications via the email preference
+  form at https://info.dechert.com/17/4315/forms/preference-form.asp.
+  Proprietary information platforms (DAMITT, World Compass, World Passport,
+  Dechert Direct, Box Portal) are either downloadable PDF reports or
+  authenticated client-only surfaces, not developer-accessible APIs.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
