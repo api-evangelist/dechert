@@ -76,6 +76,8 @@ tags:
   - White Collar
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/dechert-domain-security.yml
   - type: Website
     url: https://www.dechert.com
   - type: About
