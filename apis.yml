@@ -20,9 +20,20 @@ description: >-
   publish an RSS feed for OnPoint or any blog series — its only public-facing
   subscription mechanism is an email preference form.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dechert.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/apis.yml
 created: '2026-05-23'
