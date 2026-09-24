@@ -1,1 +1,0 @@
-# Dechert GraphQL API
