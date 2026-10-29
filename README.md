@@ -1,4 +1,4 @@
-# Dechert (dechert)
+# Dechert
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,83 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dechert LLP is a global law firm founded in 1875 and headquartered in Philadelphia, Pennsylvania, with "more than 900 lawyers" across 22 offices in the United States, Europe, the Middle East, and Asia. The firm is known for market-leading practices in financial services and investment management, private equity, private credit, mergers and acquisitions, international arbitration, intellectual property, life sciences, white collar enforcement, and antitrust. Dechert publishes deep thought-leadership through its OnPoint series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates proprietary information platforms including DAMITT, World Compass, World Passport, Dechert Direct, and a Box Portal. Despite these data-driven products, Dechert does not expose any public developer API, SDK, OpenAPI specification, GraphQL endpoint, webhook surface, status page, changelog, or developer portal, and does not publish an RSS feed for OnPoint or any blog series — its only public-facing subscription mechanism is an email preference form.
+Dechert LLP is a global law firm founded in 1875 and headquartered in Philadelphia, Pennsylvania, with "more than 900 lawyers" across 22 offices in the United States, Europe, the Middle East, and Asia (Wikipedia cites roughly 1,000 attorneys in 20 offices; the firm itself emphasizes a global footprint spanning the U.S., Europe, Asia, and the Middle East). The firm is known for market-leading practices in financial services and investment management, private equity, private credit, mergers and acquisitions, international arbitration, intellectual property, life sciences, white collar enforcement, and antitrust. Dechert publishes deep thought-leadership through its OnPoint series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates proprietary information platforms including DAMITT (Dechert Antitrust Merger Investigation Timing Tracker), World Compass, World Passport, Dechert Direct, and a Box Portal. Despite these data-driven products, Dechert does not expose any public developer API, SDK, OpenAPI specification, GraphQL endpoint, webhook surface, status page, changelog, or developer portal, and does not publish an RSS feed for OnPoint or any blog series — its only public-facing subscription mechanism is an email preference form.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/apis.yml)
+**Areas:** Antitrust · Arbitration · Artificial Intelligence · Asset Management · Banking · CLOs · Competitions · Corporate · Crisis Management · Cryptocurrency · Cybersecurity · Privacy
 
-## Scope
+## Dechert on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **Classification:** Company
+Everything profiled for Dechert is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dechert/](https://apis.io/providers/dechert/)** — or go straight to one of the APIs or properties below.
 
-## Firm Profile
+### Published properties
 
-- **Founded:** 1875 (predecessor MacVeagh & Bispham, founded by Wayne MacVeagh and George Tucker Bispham)
-- **Headquarters:** Philadelphia, Pennsylvania
-- **Lawyers:** 900+
-- **Offices:** 22 across the U.S., Europe, Middle East, and Asia
-- **Structure:** Limited Liability Partnership (LLP)
-- **Positioning:** "Helping Business Leaders Lead"
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Client Footprint (per dechert.com/about.html)
+#### GraphQL (1)
 
-- 700+ private fund and fund management group clients
-- 10 of the top 10 global asset management firms
-- 50 CLO managers
-- 350+ private equity and private investment clients
-- 4 of the top 5 global pharmaceutical companies
+GraphQL schemas.
 
-## Practice Areas
+- [Moved to /providers/dechert/](https://apis.io/graphqls/dechert/dechert-graphql/)
 
-Antitrust/Competition, Artificial Intelligence and Machine Learning, Corporate, Crisis Management, Cyber Privacy and AI, Employee Benefits and Executive Compensation, Enforcement and Investigations, Financial Restructuring, Financial Services and Investment Management, Global Finance, Government Contracts, Intellectual Property, International Arbitration, Litigation, Mergers and Acquisitions, National Security, Permanent Capital, Private Client, Private Credit Capital Solutions, Private Equity, Product Liability and Mass Torts, Real Estate, Sovereign Wealth Funds, Sustainability, Tax.
+#### Security (1)
 
-## Publications
+Authentication, trust centre, and vulnerability disclosure.
 
-- **OnPoint** — Flagship client alert publication spanning all practice areas.
-- **Crypto Bytes** — Cryptocurrency, digital assets, and Web3 regulatory developments.
-- **FSR Radar** — Financial Services Regulatory tracker.
-- **THE CRED** — Private credit and BDC-focused series.
-- **ReTorts** — Product liability, mass torts, and litigation commentary.
+- [Dechert Domain Security](https://apis.io/security/dechert/dechert-domain-security/)
 
-## Podcasts
+## Where to find this API
 
-- **Dechert 4 Real** — Commercial Real Estate Finance.
-- **Committed Capital** — Global Private Equity Insights.
-- **Dechert On Reg** — Global Financial Regulation.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Proprietary Platforms
+- [Website](https://www.dechert.com)
 
-- **DAMITT** (Dechert Antitrust Merger Investigation Timing Tracker) — Quarterly PDF report tracking U.S./EU significant merger investigation durations.
-- **World Compass** — Internal platform supporting Financial Services & Investment Management.
-- **World Passport** — Internal platform for cross-border fund distribution / regulatory navigation.
-- **Dechert Direct** — Client portal / collaboration surface.
-- **Box Portal** — Box.com-backed secure file exchange for clients.
+## API Evangelist rating
 
-## Developer Surface
+**Kin Score 2.4** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**None.** Dechert publishes no public developer API, SDK, CLI, OpenAPI/AsyncAPI specification, JSON Schema, GraphQL endpoint, webhooks, status page, changelog, or developer portal. There is no GitHub organization at `github.com/dechert` or `github.com/dechertllp`. The firm's machine-readable surface is effectively zero — even a public RSS feed is absent (`/feed`, `/rss`, and `/knowledge/feed` all 404). Subscribers receive OnPoint and other publications via the email preference form at https://info.dechert.com/17/4315/forms/preference-form.asp. Proprietary information platforms (DAMITT, World Compass, World Passport, Dechert Direct, Box Portal) are either downloadable PDF reports or authenticated client-only surfaces, not developer-accessible APIs.
-
-## APIs
-
-This index documents 0 public APIs.
-
-## Common Properties
-
-| Type | URL |
+| Facet | Score |
 |---|---|
-| Website | https://www.dechert.com |
-| About | https://www.dechert.com/about.html |
-| Services | https://www.dechert.com/services.html |
-| Offices | https://www.dechert.com/about/offices.html |
-| Insights | https://www.dechert.com/knowledge.html |
-| Subscribe | https://info.dechert.com/17/4315/forms/preference-form.asp |
-| Podcasts | https://www.dechert.com/knowledge/podcasts.html |
-| LinkedIn | https://www.linkedin.com/company/dechert |
-| Wikipedia | https://en.wikipedia.org/wiki/Dechert |
-| Contact | https://www.dechert.com/contact.html |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-## Maintainers
+**Agent readiness 0.0** — human-only
 
-- **Kin Lane** — kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.4** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dechert/](https://apis.io/providers/dechert/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dechert: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dechert/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
